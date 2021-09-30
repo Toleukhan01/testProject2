@@ -1,1 +1,91 @@
-/* You can add global styles to this file, and also import other style files */
+@import "/../myProject2/src/colors.scss";
+
+* {
+  font-family: "Gill Sans", sans-serif;
+  word-break: break-all;
+  word-break: break-word;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px !important;
+  padding: 0px !important;
+  width: 100%;
+  font-size: 14px;
+  background-color: $main-bg;
+  height: 100%;
+}
+
+.fa,
+.far,
+.fas {
+  font-family: "Font Awesome 5 Free" !important;
+}
+
+.container{
+  max-width: 1000px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  margin-bottom: 0;
+  color: white;
+}
+
+button {
+  outline-style: none !important;
+  box-shadow: none !important;
+  font-size: 14px !important;
+  transition: 0.2s ease-in-out;
+  border-radius: 0px !important;
+
+  &.white-btn {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-weight: 600;
+
+    &:hover {
+      background-color: white;
+      color: $primary-blue;
+    }
+  }
+
+  &.gold-btn {
+    border: 1px solid $gold;
+    color: $gold;
+
+    &:hover {
+      background-color: $gold;
+      color: white;
+      opacity: 0.9;
+    }
+
+    &.filled {
+      background-color: $gold;
+      color: white;
+    }
+
+  }
+}
+
+.title-line {
+  .dot {
+    height: 8px;
+    width: 8px;
+    background-color: $gold;
+    border-radius: 50%;
+    margin-right: 2px;
+    display: inline-block;
+  }
+}
+
+.gold{
+  color: $gold !important;
+}
+

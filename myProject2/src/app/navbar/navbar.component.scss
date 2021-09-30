@@ -1,0 +1,30 @@
+@import "/../myProject2/src/styles.scss";
+
+img{
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+}
+
+p{
+  color: white;
+  font-size: 14px;
+  text-align: justify;
+}
+
+ul{
+  li{
+    background-color: transparent !important;
+    border: none !important;
+    outline: none !important;
+    color: white;
+    padding-left: 10px !important;
+    font-weight: 600;
+    cursor: pointer;
+
+&:hover{
+  transform: scale(1.05);
+  transition: 0.2s ease-in-out;
+}
+  }
+}

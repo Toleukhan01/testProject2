@@ -1,0 +1,20 @@
+@import "/../myProject2/src/styles.scss";
+
+.top-block {
+  color: white !important;
+}
+
+.countDown {
+  span {
+    font-size: 36px;
+    font-weight: 800;
+  }
+  p {
+    font-size: 10px;
+  }
+}
+
+button.active {
+  background-color: white;
+  color: $primary-blue;
+}

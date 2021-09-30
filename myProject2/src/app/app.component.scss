@@ -1,0 +1,19 @@
+.bg {
+	background-size: cover;
+	background-repeat: no-repeat;
+	max-width: 1920px;
+	width: 100%;
+	height: max-content !important;
+	
+	&._1{
+		background-image: url("/assets/bg/header-bg.png");
+	}
+
+	&._2{
+		background-image: url("/assets/bg/conference-bg.png");
+	}
+
+	&._3{
+		background-image: url("/assets/bg/programs-bg.png");
+	}
+}
